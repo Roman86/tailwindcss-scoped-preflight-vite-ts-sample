@@ -17,7 +17,7 @@ function App() {
         </a>
       </div>
       <h1>Vite + React</h1>
-      <div className="twp card flex items-center gap-5">
+      <div className="twp card flex items-center gap-5 bg-zinc-800 rounded">
         <div>Tailwind is here</div>
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
